@@ -1,0 +1,2 @@
+'use strict';
+(function(root){const G=6.67430e-11;function calculate(m1,m2,r){if(![m1,m2,r].every(Number.isFinite)||m1<=0||m2<=0||r<=0)throw new RangeError('Masses and distance must be positive finite values');const force=G*m1*m2/(r*r);return {force,a1:force/m1,a2:force/m2};}const api={G,calculate};if(typeof module!=='undefined')module.exports=api;else root.GravityPhysics=api;})(typeof window==='undefined'?{}:window);
