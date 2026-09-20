@@ -1,0 +1,25 @@
+/* Shared page chrome. Simulation controls and drawing coordinates remain local. */
+body.unified{margin:0;min-height:100vh;display:flex;flex-direction:column;background:#f3f7fa;color:#17304d;font-family:'Sarabun',Tahoma,sans-serif;font-size:18px;line-height:1.75}
+.unified .shared-header{display:block;flex:none;width:100%;max-width:none;margin:0;padding:0;background:#102e52;color:white;border:0;border-bottom:4px solid #42afbd;border-radius:0;box-shadow:none}
+.unified .shared-header-inner{width:100%;max-width:1440px;margin:0 auto;padding:18px 24px}
+.unified .shared-header .brand-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 14px}
+.unified .shared-header .brand{font:700 24px/1.5 'Noto Sans Thai',sans-serif;color:#fff;text-decoration:none;letter-spacing:.02em}
+.unified .shared-header .brand-row span{font:400 14px/1.6 'Sarabun',sans-serif;color:#c2d9e9}
+.unified .shared-header nav{display:flex;flex-wrap:wrap;gap:5px 8px;margin:0;padding:0;background:none;border:0;justify-content:flex-start}
+.unified .shared-header nav a{display:block;font:600 15px/1.6 'Noto Sans Thai',sans-serif;padding:7px 10px;color:#e1edf5;text-decoration:none;border:0;border-radius:6px;background:transparent}
+.unified .shared-header nav a:hover,.unified .shared-header nav a[aria-current="page"]{background:#246987;color:#fff}
+body.unified>main{flex:1 0 auto;width:100%;max-width:1440px;margin:0 auto;padding:30px 24px 48px;align-content:start;min-width:0}
+.unified .shared-page-head{grid-column:1/-1;margin:0 0 28px;padding:0;min-width:0}
+.unified .shared-back{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;min-height:38px;margin:0 0 16px;padding:0;background:none;border:0;font:600 15px/1.6 'Noto Sans Thai',sans-serif}
+.unified .shared-back a{display:inline-block;color:#12648a;text-decoration:none;background:none;border:0;border-radius:6px;margin:0;padding:6px 0;font:inherit}
+.unified .shared-back a:hover{text-decoration:underline}.unified .home-location{color:#60798b}
+.unified .shared-page-head .eyebrow{display:block;font:600 14px/1.6 'Noto Sans Thai',sans-serif;color:#156c83;letter-spacing:.04em;margin:0 0 6px}
+.unified .shared-page-head h1{font:700 clamp(30px,3vw,42px)/1.45 'Noto Sans Thai',sans-serif;color:#17304d;letter-spacing:normal;margin:0 0 14px;padding:0;max-width:1100px}
+.unified .shared-page-head .intro{font:400 19px/1.85 'Sarabun',sans-serif;max-width:960px;color:#526b7e;margin:0;padding:0}
+.unified main h2{font:600 24px/1.5 'Noto Sans Thai',sans-serif;margin:0 0 16px;color:#17304d}
+.unified main h3{font:600 19px/1.55 'Noto Sans Thai',sans-serif;margin:18px 0 10px}
+.unified main .card h2{font-size:22px;margin:12px 0 8px}
+.unified .shared-footer{flex:none;width:100%;max-width:none;margin:0;padding:0;background:transparent;color:#526b7e;text-align:left;font:400 15px/1.7 'Sarabun',sans-serif;border:0}
+.unified .shared-footer>div{width:calc(100% - 48px);max-width:1392px;margin:0 auto;padding:22px 0 28px;border-top:1px solid #d6e2eb;text-align:left}
+.unified a:focus-visible,.unified button:focus-visible{outline:3px solid #e7a83c;outline-offset:3px}
+@media(max-width:700px){.unified .shared-header-inner{padding:16px}.unified .shared-header .brand-row span{display:none}.unified .shared-header nav{gap:4px}.unified .shared-header nav a{font-size:14px;padding:6px 8px}body.unified>main{padding:24px 16px 36px}.unified .shared-page-head{margin-bottom:22px}.unified .shared-page-head h1{font-size:30px}.unified .shared-page-head .intro{font-size:18px}.unified main h2{font-size:22px}.unified .shared-footer>div{width:calc(100% - 32px);padding:20px 0 24px}.unified .shared-back{font-size:14px;gap:6px 14px}}
