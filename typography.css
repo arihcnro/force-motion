@@ -1,0 +1,15 @@
+
+/* Local fonts: headings / navigation and reading text have distinct roles. */
+:root,body{font-family:'Sarabun',Tahoma,sans-serif;font-size:18px;line-height:1.85}
+h1,h2,h3,h4,h5,h6,nav,.brand,.eyebrow,.number,summary,legend,.button,button,.control>label,.status{font-family:'Noto Sans Thai',Tahoma,sans-serif}
+h1{font-size:clamp(30px,4vw,44px);font-weight:700;line-height:1.45}
+h2{font-size:26px;font-weight:700;line-height:1.5}
+h3{font-size:21px;font-weight:600;line-height:1.55}
+nav a{font-size:15px;font-weight:600;line-height:1.6}
+.brand{font-size:24px;font-weight:700}.eyebrow,.number{font-size:14px;font-weight:600}
+.intro{font-size:19px;line-height:1.85}.card h2{font-size:22px}.card p{font-size:17px;line-height:1.8}
+.lesson p,.lesson li,fieldset label,.feedback{font-size:18px;line-height:1.85}
+.formula{font-family:'Sarabun',Cambria,serif;font-size:25px;line-height:1.8}
+.back,.button,button{font-size:16px;font-weight:600}.site-footer{font-family:'Sarabun',Tahoma,sans-serif;font-size:15px}
+.muted{font-size:16px}legend{font-size:19px;font-weight:600}input{font:inherit}
+@media(max-width:550px){:root,body{font-size:17px}h1{font-size:30px}h2{font-size:23px}h3{font-size:20px}nav a{font-size:14px}.intro,.lesson p,.lesson li,fieldset label,.feedback{font-size:17px}.card h2{font-size:21px}.formula{font-size:22px}}

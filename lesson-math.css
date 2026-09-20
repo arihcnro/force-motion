@@ -1,0 +1,10 @@
+.formula{overflow-x:auto;overflow-y:hidden;padding:22px 20px;line-height:normal}
+.formula math{font-family:'Cambria Math','STIX Two Math','Latin Modern Math',math;font-size:1.08em;text-align:left;direction:ltr;margin:0;min-width:max-content}
+.formula mtext{font-family:'Sarabun','Cambria Math',serif;font-size:.85em}
+.table-scroll{overflow-x:auto}.lesson table{width:100%;border-collapse:collapse;font-size:17px}.lesson th,.lesson td{text-align:left;vertical-align:top;padding:12px;border:1px solid #d6e2eb}.lesson th{background:#edf6fa;font-family:'Noto Sans Thai',sans-serif}
+.concept-check{border:1px solid #bed6df;border-radius:10px;padding:16px;margin:22px 0;background:#f4fafb}.concept-check summary{cursor:pointer;color:#155a70}.concept-check p{margin-bottom:0}
+.force-figure{margin:20px 0;padding:12px;background:#f4f8fb;border-radius:12px}.force-figure svg{display:block;width:100%;max-width:520px;margin:auto}.force-figure figcaption{font-size:16px;text-align:center;color:#526b7e}
+.fbd-infographic{margin:24px 0}.fbd-infographic img{display:block;width:100%;height:auto;border-radius:12px}.fbd-infographic a{display:block}.fbd-infographic figcaption{font-size:16px;color:#526b7e;margin-top:12px}
+@media(max-width:550px){.formula{padding:20px 12px}.formula math{font-size:1em}.lesson th,.lesson td{padding:9px}.force-figure{padding:5px}}
+
+.reference-diagram{margin:24px 0;padding:16px;border:1px solid #d4e3ec;border-radius:14px;background:#f6faff}.reference-diagram img{display:block;width:100%;height:auto;max-width:820px;margin:auto}.reference-diagram figcaption{margin-top:12px;color:#435f72;font-size:16px;line-height:1.7}
